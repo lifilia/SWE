@@ -1,0 +1,41 @@
+Aufgabe 1 (DevOps):
+a) Wie lauten die üblichen Phasen des SDLC?
+    requirements gathering and analysis, system design, coding, testing, deployment, maintenance and support
+b) Welche Phasen des SDLC gehören eher zu CI und welche eher zu CD?
+    CI Coding, Testing
+    CD Deployment und maintenance
+c) Um was geht es bei DevOps?
+    Bei DevOps geht es um eine schnelle und regelmäßige Verbesserung der Software. 
+d) Warum sind stark spezialisierte Teams bei DevOps problematisch?
+    Spezialisierte Teams behindern die Zusammenarbeit, weil sie Aufgaben und Verantwortung voneinander abgrenzen. 
+    Dadurch ist der Informationsfluss eines Projektes nichtmehr tranzparent.
+e) Erklären Sie wie Infrastructure as code und Observability zusammen funktionieren können,
+anhand eines praxisnahen Beispiels.
+
+
+f) Welche anderen Arten von Werkzeugen werden bei DevOps eingesetzt und wozu dienen sie?
+
+
+
+Aufgabe 2 (SCM):
+a) Was ist Git?
+    Ein Versionskontrollsystem was die gleichzeitige Zusammenarbeit in Entwicklungsteams ermöglicht
+b) Was ist ein Git Repository?
+    Ein Ordner, der alle Dateien und Vorgängerversionen eines Projektes enthält
+c) Nehmen Sie Stellung zu der folgenden Aussage: ”Git speichert keine Änderungen.”
+    Falsch, git speichert Vorgängerversionen und dadurch kann man auch die Änderungen am Code erkennen.
+d) Wie ist ein Commit aufgebaut und wie werden die Dateien verwaltet?
+    - ID(Hash), Autor und Datum, Message und neue Dateien 
+e) Sie wollen für Ihr Projekt ein lokales Git Repository erstellen und Sie haben bereits Dateien erstellt. 
+Geben Sie die Befehle inklusive eventueller Parameter an, um ein solches Repository zu erstellen und alle Dateien in 
+einem initialen Commit zu speichern.
+Hinweis: Gehen Sie davon aus, dass Sie sich bereits im richtigen Verzeichnis befinden.
+git init <verzeichnis>
+git add .
+git commit -m "Repository"
+
+f) ”Ein Branch ist nur ein Zeiger auf einen einzigen Commit”. Warum werden aber mit einem Branch mehrere Commits in 
+Verbindung gebracht und warum bzw. wie kann man auf diese anderen Commits zugreifen?
+g) Sie führen drei Branches zusammen. Branch A, B und C. Sie befinden sich auf Branch C
+und führen git merge A B aus und es entsteht ein Merge-Commit. Wie viele Vorgänger hat dieser Commit?
+2 Vorgänger A und B

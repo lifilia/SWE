@@ -1,0 +1,64 @@
+Aufgabe 1 (Klassisch und Agil):
+a) Was unterscheidet klassisches Projektmanagement vom agilen Projektmanagement?
+    Klassisches PM hat strickte Strukturen und Regulatorien an die man sich halten muss. Es verfolgt ein klares Ziel.
+    Agiles PM ist hingegen sehr flexibel und anpassungsfähig. Man kann die Ziele öfters verändern und die Mitarbeiter haben mehr Freiraum als beim Klassischen PM.
+b) Wählen Sie ein Modell des eher klassischen Projektmanagement und beschreiben Sie es.
+    - Das V Modell ist ein klassisches Projektmanagement. Hierbei ist eine Klare Struktur vorgegeben, die die Verifizierung und Validierung bereits in der Planung spezifiziert. Nach jedem Schritt wird getrestet, bevor es zur nächsten Phase gehen kann.
+c) Welche Projekte sind gemäß der Stacey-Matrix mit dem klassischen Projektmanagement gut zu bewältigen?
+    Projekte, bei denen die Anforderungen und das Vorgehen weitesgehend bekannt ist, würden sich für das klassische PM eignen. 
+    -> einfache und komplizierte Projekte
+
+
+Aufgabe 2 (Agiles Manifest):
+a) Was sind die vier Grundpfeiler des Agilen Manifest?
+    1. Individuals and interactions over processes and tools.
+    2. Working software over comprehensive documentation.
+    3. Customer collaboration over contract negotiation.
+    4. Responding to change over following a project plan.
+
+b) Beschreiben Sie jeden Grundpfeiler kurz in eigenen Worten.
+    1. Die Mitarbeiter und die Kommunikation zwischeneinander und mit dem Kunden ist viel wichtiger sehr gute Tools. 
+    Fokus auf dem Menschen.
+    2. Eine Projekt ist erfolgreich, wenn die Software funktioniert. Der Fokus sollte auf der Implementierung liegen und nicht auf der Dokumentation.
+    3. Zusammenarbeit mit dem Kunden ist wertvoller und hilfreicher als ein Reines Abarbeiten der vertraglichen Aufgaben. Eine enge Zusammenarbeit mit dem Kunden verbessert das Produkt, da sich die Bedürfnisse des Kunden oft ändern können
+    4. Man sollte in einem Projekt anpassungsfähig sein. Wenn der Kunde seine Bedürfnisse ändert oder man sich für einen schlechten Plan entschieden hat, ist es nicht schlimm, einen neuen Plan zu erstellen.
+
+c) Erklären Sie, wie die Grundpfeiler miteinander zusammenhängen.
+    Eine offene Kommunikation unter den Mitarbeitern und mit dem Kunden ist wichtig für ein Projekt, da sich so neue Erkentnisse ziehen lassen und sich so Kundenbedürfnisse ändern können. Deswegen ist es wichtig flexibel zu sein und dem Kunden ein funktionierendes Produkt liefern kann, dass seinen Bedürfnissen entspricht.
+ 
+
+Aufgabe 3 (Scrum):
+a) Nennen Sie drei Scrum Artefakte und erklären Sie kurz, warum diese existieren.
+b) In Scrum gibt es mehrere Events. Beschreiben Sie (evtl. mit Skizze) in welcher Reihenfolge diese durchlaufen werden und 
+    wie oft diese durchgeführt werden.
+    Springt Planning - vor jedem Sprint
+    Daily Scrum - 15 min. Meeting jeden Tag
+    Sprint Review - am Ende eines jeden Sprints, Produktinkrement wird überprüft
+    Sprint Retrospective - am Ende eines jeden Sprints, Projektarbeit des Teams wird überprüft
+    Product Backlog Refinement -  PO organisiert und aktualisiert den Product Backlog vor dem nächsten Sprint, kann aber auch immer wieder etwas anpassen 
+c) Was unterscheidet den Product Owner vom Scrum Master?
+    PO und SM sind sozusagen Gegenspieler.
+    Der PO kümmert sich um die Kundenbedürfnisse und die Kommunikation mit den Stakeholdern. Er gewichtet die Bedürfnisse des Kunden im Product Backlog und ändert ggf Reihenfolgen und 
+    Der Scrum Master ist sozusagen der Moderator von den Projekten. Er kümmert sich um die Einhaltung von Scrum Richtlinien und die Kommunikation im Team und mit dem PO
+d) Für was wird eine sogenannte Definition of Done benötigt und wie wird diese realisiert?
+    DoD ist die formale Beschreibung eines Produktinkrements, und  welche Qualitätstandarts das Inkrement erfüllen muss.
+    Wenn ein PBI  DoD erfüllt, dann ensteht ein Inkrement
+
+e) Wie sollten User Stories verfasst werden, sodass diese einfach zu verstehen und nachvollziehbar sind?
+     (Wer, was, wofür, warum usw.) -> X möchte Y machen, um Z zu erreichen
+f) Wer gewinnt beim Planning Poker? Niemand
+g) Die Velocity war laut der Burndown-Charts der letzten drei Sprints folgendermaßen: 56, 32, 46. 
+    Wie viele Story-Punkte würden Sie für den nächsten Sprint einplanen?
+    45
+
+
+Aufgabe 4 (Kanban, XP und Design Thinking):
+a) Was unterscheidet das Kanban-Board von einer schnöden Tabelle?
+    Ein Kanban visualisiert und verwaltet einen Workflow. Es zeigt in welcher Stage sich die Elemente befinden.
+b) Nennen Sie drei Praktiken von XP, die es von Scrum und Kanban unterscheidet.
+    - Test Driven Development
+    - Pair Programming
+    - CI/CD 
+c) Für welche Art von Projekten, gemäß der Stacey-Matrix, ist der Einsatz von Design Thinking
+besonders sinnvoll? Erklären Sie.
+Bei komplexen und chaotischen Projekten, da hier die Anforderungen und das Vorgehen sehr unklar ist. Mit Design Thinking tastet man sich an unerforschte Probleme ran. Man muss viel nachdenken und kreative Lösungen entwickeln. 
