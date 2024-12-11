@@ -1,0 +1,77 @@
+Aufgabe 1 (HTML):
+a) HTML steht für Hypertext Markup Language. Was bedeuten die beiden Begriffe Hypertext
+und Markup.
+Hypertext = Text mit Hyperlinks, die auf andere Texte oder Webseiten verweisen.
+Markup = Tags für Texte für Formatierungsdefinition
+b) Wie sieht ein HTML-Element normalerweise aus? Gibt es Ausnahmen? Wenn ja, welche und
+wie sehen diese aus? <xyz>element</xyz>
+ausnahmen: selbstschließende tags wie <img />
+c) Wie sieht ein HTML-Attribut normalerweise aus? Gibt es Ausnahmen? Wenn ja, welche und
+wie sehen diese aus?
+d) Was hat es mit dem DOCTYPE auf sich? Kann man diesen auch weglassen?
+e) Erklären Sie kurz semantisches HTML. Nehmen Sie dabei Bezug auf nicht-semantisches
+HTML.
+f) In HTML gibt es zwei Bereiche. Der eine Bereich ist sichtbar, der andere nicht. Wie heißen
+die beiden Bereiche?
+g) WAI-ARIA und WCAG haben beide irgendetwas mit Accessibility zu tun. Was steckt hinter
+den beiden Abkürzungen und worin unterscheiden Sie sich?
+h) Was ist der Unterschied zwischen States und Properties in WAI-ARIA?
+i) Was sind die vier Prinzipien von WCAG?
+j) ”Alle unsere Webseiten müssen das AAA Level of Conformance erreichen, ansonsten verlieren
+wir Kunden!”. Nehmen Sie Stellung zu dieser Aussage.
+
+
+Aufgabe 2 (CSS):
+a) Wie ist CSS grundsätzlich aufgebaut?
+b) Auf welche Weise kann CSS in HTML eingebunden werden?
+c) Welche Arten von Selektoren gibt es und wie erkenne ich diese?
+d) Wie können für mehrere Selektoren dieselben Regeln definiert werden?
+e) Was ist der Unterschied zwischen id und class?
+f) Attributselektoren haben unterschiedliche Möglichkeiten Attributswerte zu prüfen. Welche
+Möglichkeiten gibt es?
+g) Was ist die Grundidee von Pseudoklassen?
+h) Pseudoklassen lassen sich grundsätzlich in zwei Arten unterteilen, welche sind dies? Denken
+Sie dabei daran, inwiefern sich z.B. :hover von z.B. :first-child unterscheidet.
+i) Was ist die Grundidee von Pseudoelementen?
+j) Welche Arten von Combinators gibt es? Worin unterscheiden sich Sibling Combinators von
+den übrigen Combinators?
+k) Es gibt einen Nesting Selector (&), der jedoch oft weggelassen werden kann. Zeigen Sie ein
+Beispiel, bei dem dieser jedoch zwingend notwendig sein kann.
+1
+l) Es sollen alle direkten Kinderelemente vom Typ p in blauem Text dargestellt werden, und alle
+weiteren Kinderelemente vom Typ p sollen in rotem Text dargestellt werden. Sie sollen den
+CSS-Code dafür angeben und dabei die Cascade ausnutzen.
+<section>
+<p>Hier steht eine Zeile in blau.</p>
+<p>Und hier eine weitere</p>
+<div>
+<p>Das ist rot.</p>
+<p>Das ist auch rot.</p>
+<main>
+<p>Das ist auch wieder rot.</p>
+<p>Das ist immernoch rot.</p>
+</main>
+</div>
+<p>Aber DAS ist wieder blau
+</section>
+<p>Das hier ist aber weder rot noch blau</p>
+m) Der Specificity-Algorithmus basiert auf drei Werten, die jeweils für eine Kategorie stehen.
+Welche Kategorien sind dies und welche Kategorien werden höher gewichtet?
+
+
+Aufgabe 3 (Layout):
+a) Es gibt zwei grundsätzliche Outer Display Types. Welche sind dies und woran erkennt man
+dies?
+b) Erklären Sie die Begriffe Margin, Border und Padding.
+c) ”Verwenden Sie CSS Grids für simple Layout und Multicol für komplexe Layouts”. Nehmen
+Sie Stellung zu dieser Aussage.
+d) Wie nennt man die Zwischenräume zwischen Spalten und Reihen?
+e) Was steckt hinter Responsive Web Design?
+f) Inwiefern sind Media Queries sinnvoll für Responsive Websites?
+g) Was bezweckt das Viewport meta tag?
+
+
+Aufgabe 4 (Animation):
+a) ”Animationen sind in CSS viel zu kompliziert. Für alles braucht man irgendwelche Keyframes
+oder Timing Functions oder was sonst noch, das versteht doch niemand!”. Stimmen Sie dieser
+Aussage zu? Begründen Sie.
